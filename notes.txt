@@ -1,0 +1,10 @@
+Messages belong to conversations belong to users
+users have many conversations which have many Messages
+users click on another users profile and then start a conversation there
+messages are built through the conversation controller with association to the users
+
+things to do:
+ - write system test
+ - user profiles
+ - conversation model generation
+ ? messages part of the conversation db or their own separate model ?
